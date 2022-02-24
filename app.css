@@ -1,0 +1,10 @@
+textarea {
+  border: 2px solid black;
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+#selectMenu input[type="button"] {
+  margin-top: 3px;
+}

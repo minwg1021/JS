@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="insertCoin">
+        <input type="button" id="btn100" value="100원 투입" />
+        <input type="button" id="btn500" value="500원 투입" />
+        <input type="button" id="btn1000" value="1000원 투입" />
+        <input type="button" id="btnReturn" value="잔돈 반환" />
+      </div>
+      <hr />
+      <div id="showCoins">
+        <label for="savedCoins">음료자판기 저장된 총 금액</label>
+        <input type="text" id="savedCoins" value="1000" readonly />
+        <label for="currentCoins">투입금액</label>
+        <input type="text" id="currentCoins" value="0" readonly />
+        <label for="myWallet">내지갑</label>
+        <input type="text" id="myWallet" value="9000" readonly />
+      </div>
+      <hr />
+      <div id="selectMenu">
+        <input
+          type="button"
+          class="btnMenu700"
+          id="cola"
+          value="코카콜라(700원, 재고수5)"
+          name="700"
+        />
+        <input
+          type="button"
+          class="btnMenu1200"
+          id="orangeJuice"
+          value="오렌지주스(1200원, 재고수5)"
+          name="1200"
+        />
+        <input
+          type="button"
+          class="btnMenu500"
+          id="coffee"
+          value="커피(500원, 재고수5)"
+          name="500"
+        />
+        <input
+          type="button"
+          class="btnMenu700"
+          id="water"
+          value="물(700원, 재고수5)"
+          name="700"
+        />
+        <input
+          type="button"
+          class="btnMenu1200"
+          id="cornTea"
+          value="옥수수수염차(1200원, 재고수5)"
+          name="1200"
+        />
+        <input
+          type="button"
+          class="btnMenu700"
+          id="milkiss"
+          value="밀키스(700원, 재고수5)"
+          name="700"
+        />
+        <input
+          type="button"
+          class="btnMenu1000"
+          id="travie"
+          value="트래비(1000원, 재고수5)"
+          name="1000"
+        />
+      </div>
+      <div id="showInfo">
+        <textarea id="resultBox" readonly></textarea>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
